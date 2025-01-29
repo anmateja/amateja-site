@@ -3,6 +3,8 @@ import theme from './themes/theme';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Box } from '@mui/material';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
           }}
         >
           <AppHeader />
+          <div>
+            <Routes>
+              <Route exact path='/' element={<Home/>}/>
+            </Routes>
+          </div>
         </Box>
       </ThemeProvider>
     </>

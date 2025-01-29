@@ -1,0 +1,49 @@
+import { Box, Typography } from "@mui/material";
+import background from '../assets/coffee-shop-interior_blurred.jpg';
+import '@fontsource/dancing-script';
+import '@fontsource/courier-prime';
+
+
+function Home() {
+  return (
+    <>
+      <Box
+        sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            height: '100vh',
+            width: '100vw',
+            minHeight: '100vh'
+        }}
+      >
+        <Typography 
+            variant='h1'
+            align='center'
+            color='black'
+            sx={{
+                fontFamily: 'Dancing Script, cursive',
+            }}
+        >
+            Aster Mateja
+        </Typography>
+        <Typography
+            variant='h2'
+            align='center'
+            color='black'
+            sx={{
+                fontFamily: 'Courier Prime'
+            }}
+        >
+            software engineer
+        </Typography>
+      </Box>
+    </>
+  );
+};
+
+export default Home;
