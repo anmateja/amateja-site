@@ -6,12 +6,20 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import CircleIcon from '@mui/icons-material/Circle';
 import Link from '@mui/material/Link';
+import '@fontsource/merriweather';
 
 const Contact = (props) => {
     const {data} = props;
     return (
         <Box>
-            <Typography>
+            <Typography
+                variant='h6'
+                sx={{
+                    fontFamily: 'Merriweather',
+                    borderBottom: 'solid',
+                    borderBottomColor: 'white'
+                }}
+            >
                 {data.title}
             </Typography>
             <List>

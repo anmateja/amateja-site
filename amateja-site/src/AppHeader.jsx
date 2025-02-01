@@ -9,11 +9,20 @@ import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import photo from './assets/AsterMateja.jpg'
 import CssBaseline from '@mui/material/CssBaseline';
+import { useNavigate } from 'react-router-dom';
 
 
 const pages = ['Home', 'Resume', 'Hobbies', 'About', 'Contact'];
 
 const AppHeader = () => {
+    const navigate = useNavigate();
+    const handleClick = (page) => {       
+        if(page == 'Home') {
+            navigate('/');
+        } else {
+            navigate('/'+page.toLowerCase());
+        }    
+    };
     return (
         <>
             <CssBaseline />
@@ -22,7 +31,7 @@ const AppHeader = () => {
                     <Toolbar disableGutters sx={{display: 'flex', justifyContent: 'space-between'}}>
                         <Box sx={{display: 'flex', alignItems: 'center'}}>
                             <Tooltip title='Go Home'>
-                                <IconButton onClick={() => console.log('go home')}>
+                                <IconButton onClick={() => handleClick('Home')}>
                                     <Avatar alt='Aster Mateja' src={photo} />
                                 </IconButton>
                             </Tooltip>
@@ -34,7 +43,7 @@ const AppHeader = () => {
                             {pages.map((page) => (
                                 <Button
                                     key={page}
-                                    onClick={() => console.log('go to ', page)}
+                                    onClick={() => handleClick(page)}
                                 >
                                     {page}
                                 </Button>

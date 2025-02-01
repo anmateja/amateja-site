@@ -18,6 +18,13 @@ const theme = createTheme({
                 marginRight: '1rem'
             }
         }
+    },
+    MuiListItemIcon: {
+      styleOverrides: {
+        root: {
+          minWidth: 0
+        }
+      }
     }
   },
 });

@@ -1,4 +1,5 @@
-import { Box, Typography } from "@mui/material";
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 import background from '../assets/coffee-shop-interior_blurred.jpg';
 import '@fontsource/dancing-script';
 import '@fontsource/courier-prime';
