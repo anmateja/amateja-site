@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { Box } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <div>
             <Routes>
               <Route exact path='/' element={<Home/>}/>
+              <Route path='/resume' element={<Resume/>}/>
             </Routes>
           </div>
         </Box>

@@ -1,0 +1,80 @@
+{
+    "data": {
+        "leftPanel": {
+            "title": "Aster Mateja",
+            "subTitle": "Software Engineer",
+            "sections": [{
+                "title": "CONTACT",
+                "value":[{
+                    "type": "email",
+                    "value": "hnmateja@gmail.com"
+                },{
+                    "type": "phone",
+                    "value": "(832)-492-5669"
+                },{
+                    "type": "LinkedIn",
+                    "value": "https://www.linkedin.com/in/hannahmateja/"
+                }]
+            },{
+                "title": "EDUCATION",
+                "years": "2014-2018",
+                "degree": "Bachelor of Science",
+                "study": "Computer Science",
+                "university": "The University of Texas at Austin",
+                "gpa": 3.69
+
+            },{
+                "title": "SKILLS",
+                "subcategories": {
+                    "Languages": ["Javascript", "HTML", "CSS", "Java", "SQL"],
+                    "Libraries & Frameworks": ["React.js", "Node.js", "Material-UI", "AG-Grid", "Maven", "Springboot"],
+                    "Testing": ["Jest", "Enzyme", "JUnit", "Mockito"]
+                }
+            }]
+        },
+    "rightPanel": {
+        "sections": {
+            "objective": "Experienced software developer seeking remote mid-to-senior level positions with a focus on front-end development. I am eager to apply my five years of Javascript expertise and overall eight years of development experience.",
+            "experience": [{
+                "title": "SOFTWARE ENGINEER, ASSOCIATE II",
+                "company": "J.P. MORGAN & CHASE",
+                "time": "June 2018 - May 2024",
+                "location": "Houston, Texas, USA",
+                "overview": "Built and maintained React Javascript investment banker web-apps on the Banking Investment Tools team.",
+                "details": ["Collaborated with 4-6 other team members, a UI/UX team, and several stakeholders to develop 10+ new user-facing features.", 
+                "Automated previously tedious processes for bankers, increasing their daily efficiency by 50%", 
+                "Migrated legacy projects to modern frameworks and best practices, such as ES5 Javascript to ES6 React.js",
+                "Maintained and added 70%+ of automated tests for new features on both front and back end (Jest and JUnit, respectively).",
+                "Regularly worked with UI/UX and client feedback to develop ADA-compliant and intuitive components, conducted product releases and version updates",
+                "Trained and mentored 3 new joiners in React and company in-house frameworks and tools" 
+                ]
+            },{
+                "title": "SOFTWARE ENGINEER INTERN",
+                "company": "J.P. MORGAN & CHASE",
+                "time": "May 2017 - August 2017",
+                "location": "Dallas, Texas, USA",
+                "overview": "Built a dynamic mock service suite for developers to test their customer-facing applications on Chase.com Web Services Team.",
+                "details": ["Partnered with one other intern to conduct end-user research, define project scope and requirements, and testing strategy according to company standards.",
+                "Implemented with Maven, Jersey/Spring RESTful web services, & MVC JavaScript"
+                ]
+            },{
+                "title": "SOFTWARE ENGINEER INTERN",
+                "company": "APPLE",
+                "time": "May 2016 - August 2016",
+                "location": "San Jose, California, USA",
+                "overview": "Developed a performance regression detection tool as part of the Kernel Performance team."
+            }],
+            "leadership": [{
+                "title": "OWNER & PROGRAM MANAGER",
+                "company": "ASTERIA STUDIOS LLC",
+                "time": "January 2019 - January 2022",
+                "location": "Katy, Texas, USA",
+                "details": ["Coordinated and financed fan-made magazines",
+                "Recruited authors and artists for magazine content", 
+                "Hosted online sales and coordinated all physical merchandise production and order shipments"
+                ]
+            }]
+        }
+    }
+    }
+}
