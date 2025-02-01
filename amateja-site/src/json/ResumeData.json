@@ -1,37 +1,36 @@
 {
-    "data": {
-        "leftPanel": {
-            "title": "Aster Mateja",
-            "subTitle": "Software Engineer",
-            "sections": [{
-                "title": "CONTACT",
-                "value":[{
-                    "type": "email",
-                    "value": "hnmateja@gmail.com"
-                },{
-                    "type": "phone",
-                    "value": "(832)-492-5669"
-                },{
-                    "type": "LinkedIn",
-                    "value": "https://www.linkedin.com/in/hannahmateja/"
-                }]
+    "leftPanel": {
+        "title": "Aster Mateja",
+        "subTitle": "Software Engineer",
+        "sections": [{
+            "title": "CONTACT",
+            "value":[{
+                "type": "email",
+                "value": "hnmateja@gmail.com"
             },{
-                "title": "EDUCATION",
-                "years": "2014-2018",
-                "degree": "Bachelor of Science",
-                "study": "Computer Science",
-                "university": "The University of Texas at Austin",
-                "gpa": 3.69
-
+                "type": "phone",
+                "value": "(832)-492-5669"
             },{
-                "title": "SKILLS",
-                "subcategories": {
-                    "Languages": ["Javascript", "HTML", "CSS", "Java", "SQL"],
-                    "Libraries & Frameworks": ["React.js", "Node.js", "Material-UI", "AG-Grid", "Maven", "Springboot"],
-                    "Testing": ["Jest", "Enzyme", "JUnit", "Mockito"]
-                }
+                "type": "LinkedIn",
+                "value": "https://www.linkedin.com/in/hannahmateja/"
             }]
-        },
+        },{
+            "title": "EDUCATION",
+            "years": "2014-2018",
+            "degree": "Bachelor of Science",
+            "study": "Computer Science",
+            "university": "The University of Texas at Austin",
+            "gpa": 3.69
+
+        },{
+            "title": "SKILLS",
+            "subcategories": {
+                "Languages": ["Javascript", "HTML", "CSS", "Java", "SQL"],
+                "Libraries & Frameworks": ["React.js", "Node.js", "Material-UI", "AG-Grid", "Maven", "Springboot"],
+                "Testing": ["Jest", "Enzyme", "JUnit", "Mockito"]
+            }
+        }]
+    },
     "rightPanel": {
         "sections": {
             "objective": "Experienced software developer seeking remote mid-to-senior level positions with a focus on front-end development. I am eager to apply my five years of Javascript expertise and overall eight years of development experience.",
@@ -75,6 +74,5 @@
                 ]
             }]
         }
-    }
     }
 }

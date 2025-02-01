@@ -13,7 +13,7 @@ const Skills = (props) => {
         <Box>
             <Typography>{data.title}</Typography>
             {subcategories.map((category) => {
-                const values = data.subcategories.category;
+                const values = data.subcategories[category];
                 return (
                     <Box key={category}>
                         <Typography>{category}</Typography>
