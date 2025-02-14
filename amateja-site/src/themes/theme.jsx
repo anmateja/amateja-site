@@ -25,6 +25,14 @@ const theme = createTheme({
           minWidth: 0
         }
       }
+    },
+    MuiListItem: {
+      styleOverrides: {
+        root: {
+          paddingBottom: 0,
+          paddingTop: 0
+        }
+      }
     }
   },
 });

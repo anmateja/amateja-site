@@ -15,13 +15,7 @@ function App() {
     <>
       <CssBaseline />
       <ThemeProvider theme={theme}>
-        <Box
-          component='main'
-          sx={{
-            width: '100vw',
-            height: '100vh'
-          }}
-        >
+        <Box component='main'>
           <AppHeader />
           <div>
             <Routes>

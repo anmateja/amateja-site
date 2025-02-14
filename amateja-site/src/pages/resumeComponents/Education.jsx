@@ -12,16 +12,18 @@ const Education = (props) => {
                 sx={{
                     fontFamily: 'Merriweather',
                     borderBottom: 'solid',
-                    borderBottomColor: 'white'
+                    borderBottomColor: 'white',
                 }}
             >
                 {data.title}
             </Typography>
-            <Typography>{data.years}</Typography>
-            <Typography>{data.degree}</Typography>
-            <Typography>{data.study}</Typography>
-            <Typography>{data.university}</Typography>
-            <Typography> GPA: {data.gpa}</Typography>
+            <Box sx={{marginTop: '8px', marginBottom: '8px'}}>
+                <Typography sx={{fontWeight: 'bold'}}>{data.years}</Typography>
+                <Typography>{data.degree}</Typography>
+                <Typography>{data.study}</Typography>
+                <Typography>{data.university}</Typography>
+                <Typography> GPA: {data.gpa}</Typography>
+            </Box>
         </Box>
     );
 };

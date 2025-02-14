@@ -25,19 +25,19 @@ const Contact = (props) => {
             <List>
                 <ListItem>
                     <ListItemIcon>
-                        <CircleIcon fontSize="small" />
+                        <CircleIcon fontSize="xs" />
                     </ListItemIcon>
                     <ListItemText primary={data.value[0].value} />
                 </ListItem>
                 <ListItem>
                     <ListItemIcon>
-                        <CircleIcon fontSize="small" />
+                        <CircleIcon fontSize="xs" />
                     </ListItemIcon>
                     <ListItemText primary={data.value[1].value} />
                 </ListItem>
                 <ListItem>
                     <ListItemIcon>
-                        <CircleIcon fontSize="small" />
+                        <CircleIcon fontSize="xs" />
                     </ListItemIcon>
                     <Link href={data.value[2].value}>
                         <ListItemText primary={data.value[2].type} />
