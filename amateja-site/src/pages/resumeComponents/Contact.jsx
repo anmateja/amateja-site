@@ -39,7 +39,7 @@ const Contact = (props) => {
                     <ListItemIcon>
                         <CircleIcon fontSize="xs" />
                     </ListItemIcon>
-                    <Link href={data.value[2].value} sx={{margin: '0px'}}>
+                    <Link href={data.value[2].value} rel="noopener" target="_blank" sx={{margin: '0px'}}>
                         <ListItemText primary={data.value[2].type} />
                     </Link>
                 </ListItem>

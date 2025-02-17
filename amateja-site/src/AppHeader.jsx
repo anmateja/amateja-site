@@ -12,7 +12,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { useNavigate } from 'react-router-dom';
 
 
-const pages = ['Home', 'Resume', 'Hobbies', 'About', 'Contact'];
+const pages = ['Home', 'Resume', 'Portfolio', 'About', 'Contact'];
 
 const AppHeader = () => {
     const navigate = useNavigate();

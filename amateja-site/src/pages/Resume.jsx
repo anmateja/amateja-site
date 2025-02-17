@@ -7,10 +7,10 @@ import '@fontsource/merriweather';
 import '@fontsource/roboto';
 import Typography from '@mui/material/Typography';
 import data from '../json/ResumeData.json';
-import Contact from './resumeComponents/Contact';
-import Education from './resumeComponents/Education';
-import Skills from './resumeComponents/Skills';
-import Experience from './resumeComponents/Experience';
+import Contact from './ResumeComponents/Contact';
+import Education from './ResumeComponents/Education';
+import Skills from './ResumeComponents/Skills';
+import Experience from './ResumeComponents/Experience';
 
 
 const Resume = () => {

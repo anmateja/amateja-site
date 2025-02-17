@@ -6,7 +6,7 @@ import { Box } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
-import Hobbies from './pages/Hobbies';
+import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -21,7 +21,7 @@ function App() {
             <Routes>
               <Route exact path='/' element={<Home/>}/>
               <Route path='/resume' element={<Resume/>}/>
-              <Route path='/hobbies' element={<Hobbies/>}/>
+              <Route path='/portfolio' element={<Portfolio/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/contact' element={<Contact/>}/>
             </Routes>
