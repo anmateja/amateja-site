@@ -32,9 +32,9 @@ const About = () => {
                                     fontFamily: 'Merriweather'
                                 }}
                             >
-                                Well met! My name is Aster Mateja and I am a front-end software engineer with a passion for building sleek, user-friendly web applications. My main expertise is in JavaScript and React, where I focus on crafting smooth, responsive interfaces that enhance user experience built on clean and often times reusable code. Whether it's developing interactive components, optimizing performance, or ensuring pixel-perfect design implementation, I love turning ideas into functional, beautiful websites.
+                                Well met! My name is Aster Mateja and I am a front-end software engineer with a passion for building sleek, user-friendly web applications. My main expertise is in JavaScript and React, where I focus on crafting smooth, responsive interfaces that enhance user experience built on clean and often times reusable code. Whether it&apos;s developing interactive components, optimizing performance, or ensuring pixel-perfect design implementation, I love turning ideas into functional, beautiful websites.
                                 <br/><br/>
-                                When I’m not coding, you’ll probably find me writing or gaming. I enjoy creating stories—whether through words or immersive digital worlds. Whether it's diving into a new RPG, exploring vast and fantastical new worlds, or just enjoying new narratives, I love the creativity and problem-solving that both writing and gaming bring to my life.
+                                When I’m not coding, you’ll probably find me writing or gaming. I enjoy creating stories—whether through words or immersive digital worlds. Whether it&apos;s diving into a new RPG, exploring vast and fantastical new worlds, or just enjoying new narratives, I love the creativity and problem-solving that both writing and gaming bring to my life.
                             </Typography>
                         </Grid>
                         <Grid size={3}>
