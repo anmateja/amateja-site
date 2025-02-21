@@ -77,6 +77,7 @@ const Contact = () => {
                             id="body"
                             multiline
                             rows={4}
+                            value={body}
                             onChange={(event) => {
                                 setBody(event.target.value);
                             }}
