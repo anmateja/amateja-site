@@ -7,43 +7,40 @@ import '@fontsource/courier-prime';
 
 function Home() {
   return (
-    <>
-      <Box
-        sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundImage: `url(${background})`,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            height: '100vh',
-            width: '100vw',
-            minHeight: '100vh'
-        }}
+    <Box
+      sx={{
+          display: 'flex',
+          flexGrow: 1,
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundImage: `url(${background})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          height: 'calc(100%  - 64px)'
+      }}
+    >
+      <Typography 
+          variant='h1'
+          align='center'
+          color='black'
+          sx={{
+              fontFamily: 'Dancing Script, cursive',
+          }}
       >
-        <Typography 
-            variant='h1'
-            align='center'
-            color='black'
-            sx={{
-                fontFamily: 'Dancing Script, cursive',
-            }}
-        >
-            Aster Mateja
-        </Typography>
-        <Typography
-            variant='h2'
-            align='center'
-            color='black'
-            sx={{
-                fontFamily: 'Courier Prime'
-            }}
-        >
-            software engineer
-        </Typography>
-      </Box>
-    </>
+          Aster Mateja
+      </Typography>
+      <Typography
+          variant='h2'
+          align='center'
+          color='black'
+          sx={{
+              fontFamily: 'Courier Prime'
+          }}
+      >
+          software engineer
+      </Typography>
+    </Box>
   );
 };
 

@@ -4,11 +4,12 @@ import Project from './PortfolioComponents/Project';
 
 const Portfolio = () => {
     return (
-        <Box sx={{ flexGrow: 1, 
-            marginTop: '8px', 
-            minHeight: '100vh',
-            height: '100vh',
-            width: '100vw'}}
+        <Box 
+            sx={{ 
+                flexGrow: 1, 
+                marginTop: '8px', 
+                height: 'calc(100%  - 72px)'
+            }}
         >
             <Grid container spacing={2}>
                 <Grid size={2}></Grid>

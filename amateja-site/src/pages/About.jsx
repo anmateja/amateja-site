@@ -10,9 +10,7 @@ const About = () => {
         <Box 
             sx={{ flexGrow: 1, 
                 marginTop: '8px',
-                height: '100vh',
-                width: '100vw',
-                minHeight: '100vh'
+                height: 'calc(100%  - 72px)'
             }}
         >
             <Grid container spacing={1.5}>

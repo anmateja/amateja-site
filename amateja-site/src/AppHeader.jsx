@@ -26,32 +26,34 @@ const AppHeader = () => {
     return (
         <>
             <CssBaseline />
-            <AppBar position='static'>
-                <Container maxWidth='false'>
-                    <Toolbar disableGutters sx={{display: 'flex', justifyContent: 'space-between'}}>
-                        <Box sx={{display: 'flex', alignItems: 'center'}}>
-                            <Tooltip title='Go Home'>
-                                <IconButton onClick={() => handleClick('Home')}>
-                                    <Avatar alt='Aster Mateja' src={photo} />
-                                </IconButton>
-                            </Tooltip>
-                            <Typography variant='h5' noWrap>
-                                ASTER MATEJA
-                            </Typography>
-                        </Box>
-                        <Box>
-                            {pages.map((page) => (
-                                <Button
-                                    key={page}
-                                    onClick={() => handleClick(page)}
-                                >
-                                    {page}
-                                </Button>
-                            ))}
-                        </Box>
-                    </Toolbar>
-                </Container>
-            </AppBar>
+            <Box sx={{flexGrow: 1}}>
+                <AppBar position='static'>
+                    <Container maxWidth='false'>
+                        <Toolbar disableGutters sx={{display: 'flex', justifyContent: 'space-between'}}>
+                            <Box sx={{display: 'flex', alignItems: 'center'}}>
+                                <Tooltip title='Go Home'>
+                                    <IconButton onClick={() => handleClick('Home')}>
+                                        <Avatar alt='Aster Mateja' src={photo} />
+                                    </IconButton>
+                                </Tooltip>
+                                <Typography variant='h5' noWrap>
+                                    ASTER MATEJA
+                                </Typography>
+                            </Box>
+                            <Box>
+                                {pages.map((page) => (
+                                    <Button
+                                        key={page}
+                                        onClick={() => handleClick(page)}
+                                    >
+                                        {page}
+                                    </Button>
+                                ))}
+                            </Box>
+                        </Toolbar>
+                    </Container>
+                </AppBar>
+            </Box>
         </>
     )
 }
