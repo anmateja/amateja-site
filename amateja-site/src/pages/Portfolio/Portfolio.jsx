@@ -1,8 +1,8 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import Project from './PortfolioComponents/Project';
+import Project from '../PortfolioComponents/Project';
 import background from '../assets/codeBg.jpg';
-import theme from '../themes/theme';
+import theme from '../../themes/theme';
 
 const Portfolio = () => {
 
@@ -16,8 +16,6 @@ const Portfolio = () => {
             const p = new URL(path, import.meta.url).href;
             thumbs.push(p);
         }
-
-        console.log(thumbs);
         return thumbs;
     };
 

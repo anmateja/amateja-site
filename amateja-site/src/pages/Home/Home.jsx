@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid2';
-import theme from '../themes/theme';
+import theme from '../../themes/theme';
 import background from '../assets/codeBg.jpg';
 import '@fontsource/dancing-script';
 import '@fontsource/courier-prime';

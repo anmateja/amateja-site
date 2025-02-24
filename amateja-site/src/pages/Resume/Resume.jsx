@@ -6,11 +6,11 @@ import Button from '@mui/material/Button';
 import '@fontsource/merriweather';
 import '@fontsource/roboto';
 import Typography from '@mui/material/Typography';
-import data from '../json/ResumeData.json';
-import Contact from './ResumeComponents/Contact';
-import Education from './ResumeComponents/Education';
-import Skills from './ResumeComponents/Skills';
-import Experience from './ResumeComponents/Experience';
+import data from '../../json/ResumeData.json';
+import Contact from '../ResumeComponents/Contact';
+import Education from '../ResumeComponents/Education';
+import Skills from '../ResumeComponents/Skills';
+import Experience from '../ResumeComponents/Experience';
 
 
 const Resume = () => {
