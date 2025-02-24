@@ -11,11 +11,11 @@ import photo from './assets/AsterMateja.jpg'
 import CssBaseline from '@mui/material/CssBaseline';
 import { useNavigate } from 'react-router-dom';
 
-
 const pages = ['Home', 'Resume', 'Portfolio', 'About', 'Contact'];
 
 const AppHeader = () => {
     const navigate = useNavigate();
+    
     const handleClick = (page) => {       
         if(page == 'Home') {
             navigate('/');
@@ -23,6 +23,7 @@ const AppHeader = () => {
             navigate('/'+page.toLowerCase());
         }    
     };
+    
     return (
         <>
             <CssBaseline />
@@ -44,6 +45,7 @@ const AppHeader = () => {
                                 {pages.map((page) => (
                                     <Button
                                         key={page}
+                                        name={page}
                                         onClick={() => handleClick(page)}
                                     >
                                         {page}
@@ -58,4 +60,4 @@ const AppHeader = () => {
     )
 }
 
-export default AppHeader
+export default AppHeader;
