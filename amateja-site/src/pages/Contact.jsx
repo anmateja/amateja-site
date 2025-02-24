@@ -8,6 +8,8 @@ import Link from '@mui/material/Link';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import emailjs from '@emailjs/browser';
+import theme from '../themes/theme';
+import background from '../assets/codeBg.jpg';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -32,15 +34,25 @@ const Contact = () => {
     
     return (
         <Box sx={{
-            flexGrow: 1, 
-            marginTop: '8px',
-            height: 'calc(100%  - 72px)',
+            flexGrow: 1,
+            height: 'calc(100%  - 64px)',
             maxWidth: '100%',
-            alignContent: 'center'
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
         }}>
-            <Grid container spacing={1}>
+            <Grid container spacing={0} sx={{width: '100%', height: '100%'}}>
                 <Grid size={2}></Grid>
-                <Grid size={4}>
+                <Grid 
+                    size={4} 
+                    sx={{backgroundColor: theme.palette.background.default,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        paddingRight: '8px',
+                        paddingLeft: '8px'
+                    }}
+                >
                     <Typography
                         variant='h2'
                         align='center'
@@ -74,7 +86,15 @@ const Contact = () => {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid size={4}>
+                <Grid 
+                    size={4} 
+                    sx={{backgroundColor: theme.palette.background.default,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        paddingRight: '8px'
+                    }}
+                >
                     <Box
                         sx={{display: 'flex', flexDirection: 'column'}}
                     >

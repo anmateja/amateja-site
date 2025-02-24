@@ -4,18 +4,22 @@ import Grid from '@mui/material/Grid2';
 import '@fontsource/dancing-script';
 import '@fontsource/merriweather';
 import photo from '../assets/AsterMatejaNoBackground.png';
+import theme from '../themes/theme';
+import background from '../assets/codeBg.jpg';
 
 const About = () => {
     return (
         <Box 
             sx={{ flexGrow: 1, 
-                marginTop: '8px',
-                height: 'calc(100%  - 72px)'
+                height: 'calc(100%  - 72px)',
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
             }}
         >
-            <Grid container spacing={1.5}>
+            <Grid container spacing={1.5} sx={{height: '100%'}}>
                 <Grid size={2} ></Grid>
-                <Grid size={8} >
+                <Grid size={8} sx={{backgroundColor: theme.palette.background.default}}>
                     <Typography
                         variant='h1'
                         align='center'
@@ -38,7 +42,7 @@ const About = () => {
                             </Typography>
                         </Grid>
                         <Grid size={3}>
-                            <Box sx={{maxWidth: '100%', maxHeight: '100%'}}>
+                            <Box sx={{maxWidth: '100%', maxHeight: '100%', paddingRight: '8px'}}>
                                 <img src={photo} alt="Photo of Aster Mateja" style={{width: '100%', height: '100%', objectFit: 'contain'}} />
                             </Box>
                         </Grid>

@@ -1,6 +1,8 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import background from '../assets/coffee-shop-interior_blurred.jpg';
+import Grid from '@mui/material/Grid2';
+import theme from '../themes/theme';
+import background from '../assets/codeBg.jpg';
 import '@fontsource/dancing-script';
 import '@fontsource/courier-prime';
 
@@ -20,26 +22,37 @@ function Home() {
           height: 'calc(100%  - 64px)'
       }}
     >
-      <Typography 
-          variant='h1'
-          align='center'
-          color='black'
-          sx={{
-              fontFamily: 'Dancing Script, cursive',
+      <Grid container spacing={1} sx={{height: '100%', width: '100%'}}>
+        <Grid size={3}></Grid>
+        <Grid 
+          size={6} 
+          sx={{backgroundColor: theme.palette.background.default,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center'
           }}
-      >
-          Aster Mateja
-      </Typography>
-      <Typography
-          variant='h2'
-          align='center'
-          color='black'
-          sx={{
-              fontFamily: 'Courier Prime'
-          }}
-      >
-          software engineer
-      </Typography>
+        >
+          <Typography 
+            variant='h1'
+            align='center'
+            sx={{
+                fontFamily: 'Dancing Script, cursive',
+            }}
+          >
+            Aster Mateja
+          </Typography>
+          <Typography
+            variant='h2'
+            align='center'
+            sx={{
+                fontFamily: 'Courier Prime'
+            }}
+          >
+            software engineer
+        </Typography>
+        </Grid>
+        <Grid size={3}></Grid>
+      </Grid>
     </Box>
   );
 };
