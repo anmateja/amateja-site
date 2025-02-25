@@ -6,11 +6,11 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import { Route, Routes } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Home from './pages/Home/Home'
+import Resume from './pages/Resume/Resume';
+import Portfolio from './pages/Portfolio/Portfolio';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 import './App.css';
 
 function App() {

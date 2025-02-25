@@ -3,9 +3,9 @@ import Typography from "@mui/material/Typography";
 import Grid from '@mui/material/Grid2';
 import '@fontsource/dancing-script';
 import '@fontsource/merriweather';
-import photo from '../assets/AsterMatejaNoBackground.png';
+import photo from '../../assets/AsterMatejaNoBackground.png';
 import theme from '../../themes/theme';
-import background from '../assets/codeBg.jpg';
+import background from '../../assets/codeBg.jpg';
 
 const About = () => {
     return (

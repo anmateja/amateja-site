@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { render, screen } from '@testing-library/react';
 import AppHeader from '../src/AppHeader';
 import { useNavigate } from 'react-router-dom';

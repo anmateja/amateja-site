@@ -9,7 +9,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import emailjs from '@emailjs/browser';
 import theme from '../../themes/theme';
-import background from '../assets/codeBg.jpg';
+import background from '../../assets/codeBg.jpg';
 
 const Contact = () => {
     const [name, setName] = useState('');

@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import Project from '../PortfolioComponents/Project';
-import background from '../assets/codeBg.jpg';
+import Project from './Project';
+import background from '../../assets/codeBg.jpg';
 import theme from '../../themes/theme';
 
 const Portfolio = () => {
